@@ -40,7 +40,7 @@ youtube_url = input('Enter YouTube URL: ')
 mp3_path, video_title = download_youtube_video(youtube_url)
 print(f'File saved at: {mp3_path}')
 
-model = whisper.load_model("medium")  # Whisper models include tiny, base, small, medium, large, turbo 
+model = whisper.load_model("small")  # Whisper models include tiny, base, small, medium, large, turbo 
 
 def transcribe_audio(mp3_path):
     result = model.transcribe(mp3_path)
