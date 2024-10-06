@@ -1,0 +1,4 @@
+yt_dlp
+openai-whisper
+langchain_ollama
+langchain
